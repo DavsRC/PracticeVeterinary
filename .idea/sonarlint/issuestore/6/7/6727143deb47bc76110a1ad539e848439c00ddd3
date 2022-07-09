@@ -1,0 +1,23 @@
+
+A
+java:S1481"+Remove this unused "owners" local variable.(şê„
+G
+java:S1481"1Remove this unused "isVaccinated" local variable.(Ó±Ã¹
+N
+java:S1481"8Remove this unused "desparasitationDate" local variable.(äŒí‹
+N	java:S106"9Replace this use of System.out or System.err by a logger.(±¿±é
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Šü‘±ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(èãèûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(İşÀ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ş€†¡
+M
+java:S1135"2Complete the task associated to this TODO comment.(µá”øÿÿÿÿ
+H
+java:S1135 "2Complete the task associated to this TODO comment.(¼Ÿ‹Ô
+M
+java:S1135""2Complete the task associated to this TODO comment.(Èô˜ğúÿÿÿÿ
+K
+java:S14810")Remove this unused "exit" local variable.(›ôÒøÿÿÿÿÿ8”ÇÉ0
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(ş­‘Éúÿÿÿÿ
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(ÎÙîñ8Ú«É0
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(ûÕ¾¦ÿÿÿÿÿ8Ú«É0
