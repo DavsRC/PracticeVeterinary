@@ -14,7 +14,7 @@ public class Appointment {
 
     protected String clinicNumber;
     protected Type type;
-    protected ApointmentStatus Status;
+    protected ApointmentStatus apointmentStatus;
     protected LocalDateTime date;
 
 }

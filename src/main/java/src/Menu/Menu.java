@@ -1,6 +1,8 @@
 package src.Menu;
+import src.Appointments.Appointment;
+import src.Appointments.operations.AppointmentOperation;
 import src.Patient.Patient;
-import src.operations.PatientPatientOperations;
+import src.Patient.operations.PatientPatientOperations;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
@@ -13,7 +15,9 @@ private static Scanner in;
     boolean exit = false;
     int option;
     Patient patient = new Patient();
+    Appointment appointment = new Appointment();
     PatientPatientOperations patientOperations = new PatientPatientOperations();
+    AppointmentOperation appointmentOperation = new AppointmentOperation();
     List<Patient> patientList = new ArrayList<>();
 
     public void showMenu(){
@@ -38,7 +42,7 @@ private static Scanner in;
                         patientOperations.getPatients(patientList);
                         break;
                     case 3:
-                        System.out.println("Hola mundo 3");
+                        appointment = appointmentOperation.saveAppointment(patientList);
                         break;
                     case 4:
                         System.out.println("Hola mundo 4");
