@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Builder
 public class Appointment {
-
     protected String clinicNumber;
     protected Type type;
     protected ApointmentStatus apointmentStatus;

@@ -43,6 +43,7 @@ public class PatientPatientOperations implements IPatientOperations {
         return getPatient(clinicNumber, name, breed, isVaccinated, dewormingDay, pet, owner);
     }
 
+
     @Override
     public void getPatients(List<Patient> patientList) {
         if(patientList.isEmpty()){

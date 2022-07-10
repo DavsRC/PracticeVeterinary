@@ -54,7 +54,7 @@ private static Scanner in;
                         System.out.println("Please select a correct answer");
                 }
             }catch (InputMismatchException exception){
-                System.out.println("\nDebes ingresar un número");
+                System.out.println("\nYou must enter a number");
                 scanner.next();
             }
         }

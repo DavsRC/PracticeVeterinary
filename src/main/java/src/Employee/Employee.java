@@ -1,7 +1,6 @@
 package src.Employee;
 
 public class Employee {
-
     protected String DNI;
     protected String name;
     protected String cellphone;
